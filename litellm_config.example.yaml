@@ -29,16 +29,16 @@ model_list:
           enable_thinking: true
 
   # --- AIHubmix (OpenAI 兼容，一个 Key 使用多种模型) ---
-  - model_name: openai/gpt-4o-mini
+  - —model_name:gemini-3.1-flash-image-preview-free
     litellm_params:
-      model: openai/gpt-4o-mini
-      api_key: "os.environ/AIHUBMIX_KEY"
+      model   模型: openaigemini-3.1-flash-image-preview-free
+      api_key: "sk-f9ELKpaTvIEZpyLRDd39D0B6079c464aAf05A6Bb4bCf517f"
       api_base: https://aihubmix.com/v1
 
-  - model_name: openai/claude-3-5-sonnet-20241022
+  - model_name: openai/claude-3-5-sonnet-20241022—model_name: openai/claude-3-5-sonnet-20241022
     litellm_params:
-      model: openai/claude-3-5-sonnet-20241022
-      api_key: "os.environ/AIHUBMIX_KEY"
+      model: openai/claude-3-5-sonnet-20241022模型:openai /克劳德- 3 - 5 -十四行诗20241022
+      api_key: "os.environ/AIHUBMIX_KEY"api_key:“os.environ / AIHUBMIX_KEY"
       api_base: https://aihubmix.com/v1
 
   # --- DeepSeek 官方 API (原生 provider，自动解析 base_url) ---
